@@ -16,3 +16,7 @@ function destructivelyPrependKitten(name){
 
 //destructively removing elements from the end and from the beginning
 
+function destructivelyRemoveLastKitten(name){
+  kittens.pop("Garfield");
+  return kittens;
+}
