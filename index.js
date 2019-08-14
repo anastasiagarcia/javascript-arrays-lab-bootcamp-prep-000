@@ -14,9 +14,10 @@ function destructivelyPrependKitten(name){
   return kittens;
 }
 
-//destructively removing elements from the end and from the beginning
+//destructively removing elements from the end .pop() and from the beginning .shift()
 
 function destructivelyRemoveLastKitten(name){
   kittens.pop("Garfield");
   return kittens;
 }
+
