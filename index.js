@@ -48,3 +48,6 @@ function removeLastKitten(){
   return kitten;
 }
 
+function removeFirstKitten(){
+  var kitten=kittens.
+}
