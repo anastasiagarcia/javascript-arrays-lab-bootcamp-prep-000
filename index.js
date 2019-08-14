@@ -49,6 +49,6 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-  var kitten=kittens.slice(1); //if start us om
+  var kitten=kittens.slice(1);    //if start us omitted it acts like"0". like in this case, i didnt indicate the starting point just where to stop 
   return kitten;
 }
