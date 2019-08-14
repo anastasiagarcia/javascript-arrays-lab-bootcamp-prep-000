@@ -22,6 +22,9 @@ function destructivelyRemoveLastKitten(name){
 }
 
 function destructivelyRemoveFirstKitten() {
-  kittens.shift(kittens[0]);
+  kittens.shift(kittens[0]); //you can remove the element by index number or as yuo did before with the name of the element
   return kittens;
 }
+
+//append a kitten to the kittens array and return a new kittens array leaving the kitten array unchanged
+
