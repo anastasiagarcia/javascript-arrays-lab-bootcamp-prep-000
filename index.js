@@ -7,3 +7,7 @@ function destructivelyAppendKitten(name){
   return kittens;
   
 }
+function destructivelyPrependKitten(name){
+  kittens.pop("Garfield");
+  return kittens;
+}
