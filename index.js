@@ -41,3 +41,8 @@ function prependKitten(name){
 
 //removing indexes fromarray without changing the existing array
 //
+
+function removeLastKitten(){
+  var kitten= kittens.slice(kittens.length-1);
+  return kitten;
+}
