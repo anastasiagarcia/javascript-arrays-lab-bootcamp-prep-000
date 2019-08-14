@@ -41,7 +41,7 @@ function prependKitten(name){
 
 //removing indexes from array without changing the existing array
 //The slice() method returns the selected elements in an array, as a new array object 
-//for example kittens.slice(1,2); it starts from index 1 (not include until index 2 include);
+//for example kittens.slice(1,2); it starts from index 1 ( include until index 2 include);
 
 function removeLastKitten(){
   var kitten= kittens.slice(0, kittens.length-1);
