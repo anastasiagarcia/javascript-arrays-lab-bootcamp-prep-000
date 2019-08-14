@@ -39,3 +39,5 @@ function prependKitten(name){
   return kitten;
 }
 
+//removing indexes fromarray without changing the existing array
+//
